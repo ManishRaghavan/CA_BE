@@ -1,0 +1,40 @@
+{
+  "trailingComma": "none",
+  "singleQuote": true,
+  "semi": true,
+  "printWidth": 120,
+  "jsxBracketSameLine": true,
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": [
+        "src/store/*.js",
+        "src/config/*.js",
+        "src/_friends/_stars/*.js",
+        "src/_profile/**/*.js",
+        "mpl-ui-kit/**/*.js",
+        "mpl-react-sdk/**/*.js"
+      ],
+      "options": {
+        "printWidth": 180
+      }
+    },
+    {
+      "files": [
+        "src/locale/*.js"
+      ],
+      "options": {
+        "printWidth": 200
+      }
+    },
+    {
+      "files": ["src/**/*.ts"],
+      "options": {
+        "printWidth": 80
+      }
+    }
+  ]
+}
